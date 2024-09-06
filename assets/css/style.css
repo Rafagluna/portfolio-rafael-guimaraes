@@ -129,6 +129,8 @@ img {
 .content-title-project {
     display: flex;
     flex-direction: column;
+    margin-bottom: 70px;
+    max-width: 600px;
 }
 
 .title-projects {
@@ -141,7 +143,7 @@ img {
     color: #C7C7C7;
     font-size: 16px;
     font-family: roboto-medium;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .content-card-project {
@@ -161,6 +163,7 @@ img {
 }
 
 .img-project {
+    max-width: 650px;
     max-height: 350px;
     border-radius: 10px;
 }

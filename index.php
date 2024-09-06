@@ -46,6 +46,57 @@
         </div>
     </div>
 
+    <!-- PROJECTS -->
+    <div id="about">
+        <div class="container">
+            <div class="content-title-project">
+                <div class="title-projects">PROJETOS</div>
+                <div class="subtitle-projects">Here are some of the selected projects that showcase my passion for front-end development.</div>
+            </div>
+            <div class="content-about">
+                <div>
+                    <img src="./assets/img/projeto-github-search.png" alt="Projeto Github Search" class="img-project">
+                </div>
+                <div class="content-text-card">
+                    <div class="title-task">Promotional landing page for our favorite show</div>
+                    <div class="subtitle-task">Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.</div>
+                    <div class="content-button-about">
+                        <div class="button-redirect-task">LIVE DEMO</div>
+                        <div class="button-redirect-task">SEE ON GITHUB</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-about" style="margin-top: 60px">
+                <div>
+                    <img src="./assets/img/projeto-ip-address.png" alt="Projeto Github Search" class="img-project">
+                </div>
+                <div class="content-text-card">
+                    <div class="title-task">Promotional landing page for our favorite show</div>
+                    <div class="subtitle-task">Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.</div>
+                    <div class="content-button-about">
+                        <div class="button-redirect-task">LIVE DEMO</div>
+                        <div class="button-redirect-task">SEE ON GITHUB</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-about" style="margin-top: 60px">
+                <div>
+                    <img src="./assets/img/projeto-sunnyside.png" alt="Projeto Github Search" class="img-project">
+                </div>
+                <div class="content-text-card">
+                    <div class="title-task">Promotional landing page for our favorite show</div>
+                    <div class="subtitle-task">Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.</div>
+                    <div class="content-button-about">
+                        <div class="button-redirect-task">LIVE DEMO</div>
+                        <div class="button-redirect-task">SEE ON GITHUB</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="about">
         <div class="container">
             <div class="content-about">
