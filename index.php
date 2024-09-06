@@ -50,7 +50,7 @@
         <div class="container">
             <div class="content-about">
                 <div>
-                    <span class="title-projects">EXPERIÊNCIA</span>
+                    <span class="title-projects">SOBRE MIM</span>
                 </div>
 
                 <div class="content-text-card">
