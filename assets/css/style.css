@@ -1,4 +1,9 @@
 @font-face {
+    font-family: poppins-regular;
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
     font-family: roboto-medium;
     src: url('../fonts/Poppins/Poppins-Medium.ttf');
 }
@@ -17,7 +22,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000000;
+    background-color: #000000 !important;
 }
 
 /* HEADER */
@@ -53,10 +58,10 @@ li {
 /* HERO */
 
 #hero {
-    padding: 65px;
+    padding: 65px 0;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .content-title {
@@ -86,7 +91,7 @@ li {
 }
 
 .button-contact {
-    background-color: #D3E97A;
+    background-color: #D3E97A !important;
     padding: 10px 25px;
     border-radius: 50px;
     cursor: pointer;
@@ -99,17 +104,221 @@ li {
 }
 
 img {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 .button-social {
     padding: 8px;
     border-radius: 50%;
-    background-color: #222222;
+    background-color: #222222 !important;
     cursor: pointer;
 }
 
 #foto-perfil {
     border-radius: 5px;
     width: 600px;
+}
+
+/* PROJECTS */
+
+#projects {
+    padding: 65px 0;
+    border-top: 1px solid #484848;
+}
+
+.content-title-project {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-projects {
+    font-size: 50px;
+    font-family: roboto-semibold;
+    color: #fff;
+}
+
+.subtitle-projects {
+    color: #C7C7C7;
+    font-size: 16px;
+    font-family: roboto-medium;
+    margin-top: 15px;
+}
+
+.content-card-project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-project {
+    background-color: #1A1A1A !important;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.img-project {
+    max-height: 350px;
+    border-radius: 10px;
+}
+
+.content-text-card {
+    max-width: 544px;
+}
+
+.title-task {
+    font-family: roboto-medium;
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.subtitle-task {
+    color: #C7C7C7;
+    font-size: 14px;
+    font-family: poppins-regular;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.content-buttons-task {
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+
+.button-redirect-task {
+    text-transform: uppercase;
+    color: #D3E97A;
+    text-decoration: underline;
+    font-size: 16px;
+    font-family: roboto-bold;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* ABOUT */
+
+#about {
+    padding: 65px 0 120px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    border-top: 1px solid #484848;
+}
+
+.content-about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-button-about {
+    margin-top: 35px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+
+/* REGISTER */
+
+#register {
+    padding: 65px 0;
+    border-top: 1px solid #484848;
+}
+
+.content-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+    padding-top: 15px;
+}
+
+.content-register--field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content-register--field label {
+    color: #C7C7C7;
+    font-size: 14px;
+    font-family: poppins-regular;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.content-register--field input,
+.content-register--field textarea {
+    width: 100%;
+    background-color: #1A1A1A !important;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+
+    color: #fff;
+    font-size: 14px;
+    font-family: roboto-medium;
+}
+
+.content-register--field textarea {
+    min-height: 130px;
+}
+
+
+/* TELA ABOUT */
+
+/* HABILIDADE */
+
+.content-habilidade {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.habilidade {
+    border: 1px solid #484848; 
+    padding: 10px 25px; 
+    font-size: 14px; 
+    font-weight: 500; 
+    display: inline-block; 
+    border-radius: 50px;
+    color: #fff;
+    font-family: roboto-medium;
+}
+
+
+/* EXPERIENCIA */
+
+.content-titulo-experiencia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-experiencia {
+    color: #FFF;
+    font-family: roboto-medium;
+    font-size: 18px;
+}
+
+.title-tempo-experiencia {
+    font-size: 16px;
+    font-family: poppins-regular;
+    color: #C7C7C7;
+}
+
+.title-company {
+    color: #D3E97A;
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: roboto-semibold;
 }

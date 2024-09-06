@@ -10,6 +10,8 @@
 </head>
 
 <body>
+
+    <!-- HEADER -->
     <div class="content-header">
         <span class="titulo-header">Rafael Guimarães</span>
         <ul id="lista-header">
@@ -20,30 +22,89 @@
     </div>
 
     <!-- HERO -->
-    <div id="hero">
-        <div class="content-title">
-            <div class="title-hero">OLÁ, EU SOU RAFAEL GUIMARÃES</div>
-            <div class="subtitle-hero">
-                Um Desenvolvedor Full Stack apaixonado por criar, desenvolver e crescer através do aprendizado, 
-                com foco em escrever código limpo e de fácil compreensão.
-            </div>
-            <div class="content-buttons">
-                <div class="button-contact">CONTACT ME</div>
-                <div class="button-social">
-                    <img src="./assets/img/linkedin.png" alt="Icon Linkldin">
+    <div class="container">
+        <div id="hero">
+            <div class="content-title">
+                <div class="title-hero">OLÁ, EU SOU RAFAEL GUIMARÃES</div>
+                <div class="subtitle-hero">
+                    Um Desenvolvedor Full Stack apaixonado por criar, desenvolver e crescer através do aprendizado,
+                    com foco em escrever código limpo e de fácil compreensão.
                 </div>
-                <div class="button-social">
-                    <img src="./assets/img/github.png" alt="Icon GitHub">
+                <div class="content-buttons">
+                    <div class="button-contact">CONTACT ME</div>
+                    <div class="button-social">
+                        <img src="./assets/img/linkedin.png" alt="Icon Linkldin">
+                    </div>
+                    <div class="button-social">
+                        <img src="./assets/img/github.png" alt="Icon GitHub">
+                    </div>
                 </div>
-                <!-- <div>iN</div>
-                <div>CONTACT ME</div> -->
             </div>
-        </div>
-        <div>
-            <img src="./assets/img/foto-perfil.jpg" alt="Foto Perfil" id="foto-perfil">
+            <div>
+                <img src="./assets/img/foto-perfil.jpg" alt="Foto Perfil" id="foto-perfil">
+            </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <div id="about">
+        <div class="container">
+            <div class="content-about">
+                <div>
+                    <span class="title-projects">EXPERIÊNCIA</span>
+                </div>
+
+                <div class="content-text-card">
+                    <div class="title-task">I am a front-end developer based in Sydney. Has Mechanical Engineering background. </div>
+                    <div class="subtitle-task">I am a front-end developer based in Sydney looking for exciting opportunities. Has Mechanical Engineering background. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I’m exploring Reactjs, Webflow and a bit of Designing. While I am not programming, I enjoy playing football, photography and playing Valorant. Learning more to improve skill.</div>
+                    <div class="content-button-about">
+                        <div class="button-redirect-task">More about me</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="content-about">
+                <div>
+                    <span class="title-projects">LET'S CONNECT</span>
+                    <br>
+                    <span class="subtitle-projects">Say hello at rafagluna42@gmail.com <br> For more info, here's my resume</span>
+
+                    <div class="content-buttons">
+                        <img src="./assets/img/linkedin.png" alt="Icon Linkldin">
+                        <img src="./assets/img/github.png" alt="Icon GitHub">
+                        <img src="./assets/img/instagram.png" alt="Icon Instagran">
+                    </div>
+                </div>
+
+                <div class="content-fields">
+                    <div class="content-register--field">
+                        <label for="nameField">Name</label>
+                        <input type="text" name="name" id="nameField">
+                    </div>
+                    <div class="content-register--field">
+                        <label for="nameField">Email</label>
+                        <input type="text" name="email" id="emailField">
+                    </div>
+                    <div class="content-register--field">
+                        <label for="nameField">Titulo</label>
+                        <input type="text" name="titulo" id="tituloField">
+                    </div>
+                    <div class="content-register--field">
+                        <label for="nameField">Message</label>
+                        <textarea name="message" id="messageField"></textarea>
+                    </div>
+
+                    <div class="content-buttons">
+                        <div class="button-contact">SUBMIT</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
